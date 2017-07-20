@@ -233,7 +233,7 @@
         Whether or not the homepage should be powered by legacy suggestion (versus contextual cards)
         Default to true as not all devices support contextual cards.
     -->
-    <bool name="config_use_legacy_suggestion">true</bool>
+    <bool name="config_use_legacy_suggestion">false</bool>
 
     <!-- Whether or not homepage should display user's account avatar -->
     <bool name="config_show_avatar_in_homepage">false</bool>
@@ -259,7 +259,7 @@
     </string>
 
     <!-- Whether the confirmation for sim deletion is defaulted to be on or off-->
-    <bool name="config_sim_deletion_confirmation_default_on">false</bool>
+    <bool name="config_sim_deletion_confirmation_default_on">true</bool>
 
     <!-- Package Installer package name -->
     <string name="config_package_installer_package_name" translatable="false">
@@ -376,7 +376,7 @@
     <bool name="config_show_private_dns_settings">true</bool>
 
     <!-- Whether memory from app_info_settings is available or not. -->
-    <bool name="config_show_app_info_settings_memory">false</bool>
+    <bool name="config_show_app_info_settings_memory">true</bool>
 
     <!-- Whether battery from app_info_settings is available or not. -->
     <bool name="config_show_app_info_settings_battery">true</bool>
@@ -460,7 +460,7 @@
     <bool name="config_show_trust_agent_click_intent">true</bool>
 
     <!-- Whether wallpaper attribution should be shown or not. -->
-    <bool name="config_show_wallpaper_attribution">true</bool>
+    <bool name="config_show_wallpaper_attribution">false</bool>
 
     <!-- Whether assist_and_voice_input should be shown or not. -->
     <bool name="config_show_assist_and_voice_input">true</bool>
@@ -549,10 +549,10 @@
     <bool name="config_show_smooth_display">false</bool>
 
     <!-- Whether to show emergency settings in top-level Settings -->
-    <bool name="config_show_emergency_settings">true</bool>
+    <bool name="config_show_emergency_settings">false</bool>
 
     <!-- Whether to show emergency gesture in Settings -->
-    <bool name="config_show_emergency_gesture_settings">true</bool>
+    <bool name="config_show_emergency_gesture_settings">false</bool>
 
     <!-- Optional package name if another 1p app wants to take over the emergency gesture settings UI -->
     <string name="emergency_gesture_settings_package"></string>
