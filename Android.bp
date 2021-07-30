@@ -67,8 +67,13 @@ android_library {
     ],
     static_libs: [
         // External dependencies
+        "androidx.leanback_leanback",
+        "androidx.legacy_legacy-preference-v14",
+        "androidx.legacy_legacy-support-v4",
         "androidx.navigation_navigation-fragment-ktx",
+        "androidx.palette_palette",
         "androidx.window_window-java",
+        "androidx.viewpager2_viewpager2",
         "gson",
         "guava",
 
